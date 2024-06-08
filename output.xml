@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+<pricebook>
+<header pricebook-id="p8-uk-gb-gbp-list-prices">
+<currency>GBP</currency>
+<display-name xml:lang="x-default">GB GBP list prices</display-name>
+<online-flag>true</online-flag>
+</header>
+<price-tables>
+<price-table product-id="22157729608">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729610">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729612">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729614">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729616">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729618">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729620">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729622">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729624">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729626">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22157729685">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22162822708">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822710">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822712">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822714">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822716">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822718">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822720">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22162822785">
+<amount quantity="1">110.00</amount>
+</price-table>
+<price-table product-id="22163570008">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570010">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570012">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570014">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570016">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570018">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570020">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570022">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570024">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570026">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163570085">
+<amount quantity="1">139.00</amount>
+</price-table>
+<price-table product-id="22163668208">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668210">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668212">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668214">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668216">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668218">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668220">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22163668285">
+<amount quantity="1">119.00</amount>
+</price-table>
+<price-table product-id="22164640808">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640810">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640812">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640814">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640816">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640818">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640820">
+<amount quantity="1">249.00</amount>
+</price-table>
+<price-table product-id="22164640885">
+<amount quantity="1">249.00</amount>
+</price-table>
+</price-tables>
+</pricebook>
+</pricebooks>
