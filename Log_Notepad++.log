@@ -1,0 +1,119 @@
+
+In KafkaConsumer | Kafka Connected to Server: 13.233.98.61:9092
+====== CONSUMER STARTS ======
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+%6|1684219291.707|FAIL|rdkafka#consumer-2| [thrd:GroupCoordinator]: GroupCoordinator: 13.233.98.61:9092: Disconnected (after 143993ms in state UP)
+%3|1684219291.707|ERROR|rdkafka#consumer-2| [thrd:app]: rdkafka#consumer-2: GroupCoordinator: 13.233.98.61:9092: Disconnected (after 143993ms in state UP)
+
+-----------------------------------------------------------------------------------------------------
+Locally For 50K Lines!!
+Csv_To_Xml Consumer Service!!
+In KafkaConsumer | Kafka Connected to Server: localhost:9092
+====== CONSUMER STARTS ======
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+In TriggerConsumerToContinuousPollAsync | Consumed message: 'from3' TopicPartitionOffset: 'TriggerConsumer [[0]] @19'.
+In TriggerConsumerToFormXml | Entered!!
+In TriggerConsumerToFormXml | Consumer subscribe to Topic: CsvProducer
+In TriggerConsumerToFormXml | Cosumer EOF Reached, consumedResult: ''.
+In TriggerConsumerToFormXml | Consumer Time 10014
+In TriggerConsumerToContinuousPollAsync | File doesn't Exist!!
+In TriggerConsumerToContinuousPollAsync | Time is 10022
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+In TriggerConsumerToContinuousPollAsync | Consumed message: 'statFromConsumer' TopicPartitionOffset: 'TriggerConsumer [[0]] @20'.
+In TriggerConsumerToFormXml | Entered!!
+In TriggerConsumerToFormXml | Consumer subscribe to Topic: CsvProducer
+In TriggerConsumerToFormXml | Cosumer EOF Reached, consumedResult: ''.
+In TriggerConsumerToFormXml | Preapring XML for 49985 Messages
+In PrepareAndSaveXML | Entered for 49985 CsvRows!!
+%4|1684221191.634|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (300000ms) exceeded by 360ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+In PrepareAndSaveXML | XmlDocument Preapred!!
+In PrepareAndSaveXML | XmlDocument Saved to D:\XML\Json_1082037561.xml!!
+In TriggerConsumerToFormXml | XML Prepared!!
+In TriggerConsumerToFormXml | Consumer Time 365974
+In TriggerConsumerToContinuousPollAsync | File Exist!!
+In TriggerConsumerToContinuousPollAsync | Time is 365983
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+[Consumer Exception] Error occured: Application maximum poll interval (300000ms) exceeded by 360ms
+
+-----------------------------------------------------------------------------------------------------
+
+Producer Starts on 68588
+
+[Without Async Producer Function]
+And ended on..
+In ProduceMessageToCsvProducerTopic | Message sent on Partition: [0] with Offset: 118587
+In ProduceMessageToTriggerConsumerTopic | Message sent on Partition: [0] with Offset: 22
+In ReadAndPushLinesToKafka | After Producing, The time is 780003 ~ 780 sec ~ 13 min
+In ReadAndPushLinesToKafka | Total count is 50000
+In ReadAndPushLinesToKafka | Total Rows Read - 50000
+In ProduceMessageToTriggerConsumerTopic | Message sent on Partition: [0] with Offset: 23
+
+[With Async]
+Now, Producer Starts on 1,18,587
+
+Delivered message 10100012,10.00 to CsvProducer [[0]] @168583
+Delivered message 10100013,10.00 to CsvProducer [[0]] @168584
+Delivered message 10200011,10.00 to CsvProducer [[0]] @168585
+Delivered message 10100011,10.00 to CsvProducer [[0]] @168586
+Delivered message 10100012,10.00 to CsvProducer [[0]] @168587
+In ReadAndPushLinesToKafka | After Producing, The time is 4935 ~ 4 sec
+In ReadAndPushLinesToKafka | Total count is 50000
+In ReadAndPushLinesToKafka | Total Rows Read - 50000
+-----------------------------------------------------------------------------------------------------
+Csv_To_Xml Consumer Service!!
+In KafkaConsumer | Kafka Connected to Server: localhost:9092
+====== CONSUMER STARTS ======
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+In TriggerConsumerToContinuousPollAsync | Consumed message: 'Start' TopicPartitionOffset: 'TriggerConsumer [[0]] @21'.
+In TriggerConsumerToFormXml | Entered!!
+In TriggerConsumerToFormXml | Consumer subscribe to Topic: CsvProducer
+In TriggerConsumerToFormXml | Cosumer EOF Reached, consumedResult: ''.
+In TriggerConsumerToFormXml | Consumer Time 10010
+In TriggerConsumerToContinuousPollAsync | File Exist!!
+In TriggerConsumerToContinuousPollAsync | Time is 10018
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+In TriggerConsumerToContinuousPollAsync | Consumed message: 'Start' TopicPartitionOffset: 'TriggerConsumer [[0]] @22'.
+In TriggerConsumerToFormXml | Entered!!
+In TriggerConsumerToFormXml | Consumer subscribe to Topic: CsvProducer
+In TriggerConsumerToFormXml | Message Count Reached, Exiting Consumer!!
+In TriggerConsumerToFormXml | Preapring XML for 50000 Messages
+In PrepareAndSaveXML | Entered for 50000 CsvRows!!
+%4|1684222757.642|MAXPOLL|rdkafka#consumer-1| [thrd:main]: Application maximum poll interval (300000ms) exceeded by 201ms (adjust max.poll.interval.ms for long-running message processing): leaving group
+In PrepareAndSaveXML | XmlDocument Preapred!!
+In PrepareAndSaveXML | XmlDocument Saved to D:\XML\Json_1339110864.xml!!
+In TriggerConsumerToFormXml | XML Prepared!!
+In TriggerConsumerToFormXml | Consumer Time 322830
+In TriggerConsumerToContinuousPollAsync | File Exist!!
+In TriggerConsumerToContinuousPollAsync | Time is 322835
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+[Consumer Exception] Error occured: Application maximum poll interval (300000ms) exceeded by 201ms
+
+msk_xml - '{"ProductNumber": "1000000000", "MSRP": "10.00"}'
+
+Consumer Time for 50K Rows, without converting in XML, just writing
+Csv_To_Xml Consumer Service!!
+In KafkaConsumer | Kafka Connected to Server: localhost:9092
+====== CONSUMER STARTS ======
+In TriggerConsumerToContinuousPollAsync | Polling Starts on Topic: TriggerConsumer
+In TriggerConsumerToContinuousPollAsync | Consumed message: 'Start' TopicPartitionOffset: 'TriggerConsumer [[0]] @24'.
+In TriggerConsumerToFormXml | Entered!!
+In TriggerConsumerToFormXml | Consumer subscribe to Topic: CsvProducer
+In TriggerConsumerToFormXml | Message Count Reached, Exiting Consumer!!
+In TriggerConsumerToFormXml | Preapring XML for 50000 Messages
+In TriggerConsumerToFormXml | XML Prepared!!
+In TriggerConsumerToFormXml | Consumer Time 23721
+In TriggerConsumerToContinuousPollAsync | File Exist!!
+In TriggerConsumerToContinuousPollAsync | Both Consumer Time is 23730 - Without JsonTOXML logic
+
+-------------------------------------------------------------------
+
+In TriggerConsumerToFormXml | Consumed message: '{"ProductNumber": "1000000000", "MSRP": "10.00"}' TopicPartitionOffset: 'msk_xml [[0]] @49998'.
+In TriggerConsumerToFormXml | Consumed message: '{"ProductNumber": "1000000001", "MSRP": "10.00"}' TopicPartitionOffset: 'msk_xml [[0]] @49997'.
+In TriggerConsumerToFormXml | Consumed message: '{"ProductNumber": "1000000000", "MSRP": "10.00"}' TopicPartitionOffset: 'msk_xml [[0]] @49999'.
+In TriggerConsumerToFormXml | Message Count Reached, Exiting Consumer!!
+In TriggerConsumerToFormXml | Preapring XML for 50000 Messages
+In PrepareAndSaveXML | Entered for 50000 CsvRows!!
+In PrepareAndSaveXML | XmlDocument Preapred!!
+In PrepareAndSaveXML | XmlDocument Saved to D:\XML\Json_783136365.xml!!
+In TriggerConsumerToFormXml | XML Prepared!!
+In TriggerConsumerToFormXml | Consumer Time 528505
